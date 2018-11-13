@@ -1,5 +1,5 @@
 const mapboxgl = require('mapbox-gl');
-const { createElement } = require('./marker');
+const createAll = require('./marker');
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiZXZlbWVuZGVsZXZpY2giLCJhIjoiY2pvZzlzc3Y5MDExdzN2cXQzYnZlZWI3OCJ9.L6N6O-Nb278QF551ERH10g';
@@ -11,4 +11,4 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10', // mapbox has lots of different map styles available.
 });
 
-createElement();
+createAll();
