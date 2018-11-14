@@ -8,7 +8,62 @@ body {
   background-color: #c1b5ad;
 }
 
+#header {
+  height: 8vh;
+  background-color: tomato;
+}
+
+#main-page {
+  display: flex;
+}
+
 #map {
-  height: 100vh;
+  flex: 3 0 0;
+  height: 92vh;
   width: 100vw;
+}
+
+#right-menu {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#add-marker {
+  flex: 2 0 0;
+  background-color: white;
+  padding-left: 20px;
+}
+
+#itinerary-box {
+  flex: 3 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 150px;
+}
+
+button {
+  background-color: tomato;
+  height: 30px;
+  width: 30px;
+  border-color: orangered;
+  border-radius: 20%;
+  margin-left: 5px;
+  color: white;
+  font-size: 12pt;
+}
+
+#itinerary-title {
+  background-color: orange;
+  flex: 1 0 0;
+  padding-left: 20px;
+}
+
+#itinerary-schedule {
+  background-color: white;
+  flex: 5 0 0;
+  padding-left: 20px;
 }
